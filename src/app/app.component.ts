@@ -23,8 +23,6 @@ export class AppComponent {
         //console.log(res);
       });
 
-      // Then, we're using the ngOnInit() lifecycle hook, which is executed when the component loads, to call the getPrices() function in the DataService.
-      // We're binding the response res to this.cryptos.
   }
 }
 
