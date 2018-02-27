@@ -16,3 +16,6 @@ export class DataService {
   	.map(result => this.result = result);
   }
 }
+
+//We set a result property to any, use dependency injection to create an instance of Http, and define a getPrices() function that returns the API call.
+//This is where we specify the CryptoCompare API endpoint based on the data we want.
