@@ -1,19 +1,17 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+
+import { AppComponent } from './app.component';
 import { DataService} from './data.service'; //Added this
 import { HttpClientModule } from '@angular/common/http'; //Added this
 
-
-import { AppComponent } from './app.component';
-
-
 @NgModule({
   declarations: [
-    AppComponent,
-    HttpClientModule	//Added this
+    AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule	//Added this
   ],
   providers: [DataService],	//Added this 'DataService'
   bootstrap: [AppComponent]

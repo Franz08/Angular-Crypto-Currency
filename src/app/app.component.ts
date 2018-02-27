@@ -20,7 +20,7 @@ export class AppComponent {
     this._data.getPrices()
       .subscribe(res => {
         this.cryptos = res;
-        //console.log(res);
+        //console.log(res); 
       });
 
   }
